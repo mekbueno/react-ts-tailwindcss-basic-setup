@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+* {
+	@apply box-border;
+}
+
+::selection {
+	background-color: #2563eb;
+	color: white;
+}
+
+@theme {
+	--font-lexend: "Lexend", sans-serif;
+	--font-inter: "Inter", sans-serif;
+}
